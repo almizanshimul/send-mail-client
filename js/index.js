@@ -6,7 +6,7 @@ function myFunction() {
     // const data = { "Email": email, "sub": sub, "Message": mess }
     const data = { email, sub, mess }
     // console.log(data);
-    fetch('http://localhost:3000/', {
+    fetch('https://send-mail-server.onrender.com/', {
         method: 'POST', // or 'PUT'
         headers: {
             'Content-Type': 'application/json',
